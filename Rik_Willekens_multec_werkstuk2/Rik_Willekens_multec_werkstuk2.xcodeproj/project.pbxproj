@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F09634C8211B1EE7006DC666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09634C7211B1EE7006DC666 /* AppDelegate.swift */; };
+		F09634CA211B1EE7006DC666 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09634C9211B1EE7006DC666 /* ViewController.swift */; };
+		F09634CD211B1EE7006DC666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09634CB211B1EE7006DC666 /* Main.storyboard */; };
+		F09634D0211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F09634CE211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2.xcdatamodeld */; };
+		F09634D2211B1EE8006DC666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09634D1211B1EE8006DC666 /* Assets.xcassets */; };
+		F09634D5211B1EE8006DC666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09634D3211B1EE8006DC666 /* LaunchScreen.storyboard */; };
+		F09634E0211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09634DF211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2Tests.swift */; };
+		F09634EB211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09634EA211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F09634DC211B1EE8006DC666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09634BC211B1EE6006DC666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09634C3211B1EE7006DC666;
+			remoteInfo = Rik_Willekens_multec_werkstuk2;
+		};
+		F09634E7211B1EE8006DC666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09634BC211B1EE6006DC666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09634C3211B1EE7006DC666;
+			remoteInfo = Rik_Willekens_multec_werkstuk2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F09634C4211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rik_Willekens_multec_werkstuk2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09634C7211B1EE7006DC666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F09634C9211B1EE7006DC666 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F09634CC211B1EE7006DC666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F09634CF211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rik_Willekens_multec_werkstuk2.xcdatamodel; sourceTree = "<group>"; };
+		F09634D1211B1EE8006DC666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F09634D4211B1EE8006DC666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F09634D6211B1EE8006DC666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09634DB211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rik_Willekens_multec_werkstuk2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09634DF211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rik_Willekens_multec_werkstuk2Tests.swift; sourceTree = "<group>"; };
+		F09634E1211B1EE8006DC666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09634E6211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rik_Willekens_multec_werkstuk2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09634EA211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rik_Willekens_multec_werkstuk2UITests.swift; sourceTree = "<group>"; };
+		F09634EC211B1EE8006DC666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F09634C1211B1EE7006DC666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09634D8211B1EE8006DC666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09634E3211B1EE8006DC666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F09634BB211B1EE6006DC666 = {
+			isa = PBXGroup;
+			children = (
+				F09634C6211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2 */,
+				F09634DE211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2Tests */,
+				F09634E9211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2UITests */,
+				F09634C5211B1EE7006DC666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F09634C5211B1EE7006DC666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F09634C4211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2.app */,
+				F09634DB211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2Tests.xctest */,
+				F09634E6211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F09634C6211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2 */ = {
+			isa = PBXGroup;
+			children = (
+				F09634C7211B1EE7006DC666 /* AppDelegate.swift */,
+				F09634C9211B1EE7006DC666 /* ViewController.swift */,
+				F09634CB211B1EE7006DC666 /* Main.storyboard */,
+				F09634D1211B1EE8006DC666 /* Assets.xcassets */,
+				F09634D3211B1EE8006DC666 /* LaunchScreen.storyboard */,
+				F09634D6211B1EE8006DC666 /* Info.plist */,
+				F09634CE211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2.xcdatamodeld */,
+			);
+			path = Rik_Willekens_multec_werkstuk2;
+			sourceTree = "<group>";
+		};
+		F09634DE211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F09634DF211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2Tests.swift */,
+				F09634E1211B1EE8006DC666 /* Info.plist */,
+			);
+			path = Rik_Willekens_multec_werkstuk2Tests;
+			sourceTree = "<group>";
+		};
+		F09634E9211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F09634EA211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2UITests.swift */,
+				F09634EC211B1EE8006DC666 /* Info.plist */,
+			);
+			path = Rik_Willekens_multec_werkstuk2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F09634C3211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09634EF211B1EE8006DC666 /* Build configuration list for PBXNativeTarget "Rik_Willekens_multec_werkstuk2" */;
+			buildPhases = (
+				F09634C0211B1EE7006DC666 /* Sources */,
+				F09634C1211B1EE7006DC666 /* Frameworks */,
+				F09634C2211B1EE7006DC666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rik_Willekens_multec_werkstuk2;
+			productName = Rik_Willekens_multec_werkstuk2;
+			productReference = F09634C4211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F09634DA211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09634F2211B1EE8006DC666 /* Build configuration list for PBXNativeTarget "Rik_Willekens_multec_werkstuk2Tests" */;
+			buildPhases = (
+				F09634D7211B1EE8006DC666 /* Sources */,
+				F09634D8211B1EE8006DC666 /* Frameworks */,
+				F09634D9211B1EE8006DC666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09634DD211B1EE8006DC666 /* PBXTargetDependency */,
+			);
+			name = Rik_Willekens_multec_werkstuk2Tests;
+			productName = Rik_Willekens_multec_werkstuk2Tests;
+			productReference = F09634DB211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F09634E5211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09634F5211B1EE8006DC666 /* Build configuration list for PBXNativeTarget "Rik_Willekens_multec_werkstuk2UITests" */;
+			buildPhases = (
+				F09634E2211B1EE8006DC666 /* Sources */,
+				F09634E3211B1EE8006DC666 /* Frameworks */,
+				F09634E4211B1EE8006DC666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09634E8211B1EE8006DC666 /* PBXTargetDependency */,
+			);
+			name = Rik_Willekens_multec_werkstuk2UITests;
+			productName = Rik_Willekens_multec_werkstuk2UITests;
+			productReference = F09634E6211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F09634BC211B1EE6006DC666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Rik Willekens";
+				TargetAttributes = {
+					F09634C3211B1EE7006DC666 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F09634DA211B1EE8006DC666 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F09634C3211B1EE7006DC666;
+					};
+					F09634E5211B1EE8006DC666 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F09634C3211B1EE7006DC666;
+					};
+				};
+			};
+			buildConfigurationList = F09634BF211B1EE6006DC666 /* Build configuration list for PBXProject "Rik_Willekens_multec_werkstuk2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F09634BB211B1EE6006DC666;
+			productRefGroup = F09634C5211B1EE7006DC666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F09634C3211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2 */,
+				F09634DA211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2Tests */,
+				F09634E5211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F09634C2211B1EE7006DC666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09634D5211B1EE8006DC666 /* LaunchScreen.storyboard in Resources */,
+				F09634D2211B1EE8006DC666 /* Assets.xcassets in Resources */,
+				F09634CD211B1EE7006DC666 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09634D9211B1EE8006DC666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09634E4211B1EE8006DC666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F09634C0211B1EE7006DC666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09634D0211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2.xcdatamodeld in Sources */,
+				F09634CA211B1EE7006DC666 /* ViewController.swift in Sources */,
+				F09634C8211B1EE7006DC666 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09634D7211B1EE8006DC666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09634E0211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09634E2211B1EE8006DC666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09634EB211B1EE8006DC666 /* Rik_Willekens_multec_werkstuk2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F09634DD211B1EE8006DC666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09634C3211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2 */;
+			targetProxy = F09634DC211B1EE8006DC666 /* PBXContainerItemProxy */;
+		};
+		F09634E8211B1EE8006DC666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09634C3211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2 */;
+			targetProxy = F09634E7211B1EE8006DC666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F09634CB211B1EE7006DC666 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09634CC211B1EE7006DC666 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F09634D3211B1EE8006DC666 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09634D4211B1EE8006DC666 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F09634ED211B1EE8006DC666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F09634EE211B1EE8006DC666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F09634F0211B1EE8006DC666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rik_Willekens_multec_werkstuk2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rikwillekens.Rik-Willekens-multec-werkstuk2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F09634F1211B1EE8006DC666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rik_Willekens_multec_werkstuk2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rikwillekens.Rik-Willekens-multec-werkstuk2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F09634F3211B1EE8006DC666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rik_Willekens_multec_werkstuk2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rikwillekens.Rik-Willekens-multec-werkstuk2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rik_Willekens_multec_werkstuk2.app/Rik_Willekens_multec_werkstuk2";
+			};
+			name = Debug;
+		};
+		F09634F4211B1EE8006DC666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rik_Willekens_multec_werkstuk2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rikwillekens.Rik-Willekens-multec-werkstuk2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rik_Willekens_multec_werkstuk2.app/Rik_Willekens_multec_werkstuk2";
+			};
+			name = Release;
+		};
+		F09634F6211B1EE8006DC666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rik_Willekens_multec_werkstuk2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rikwillekens.Rik-Willekens-multec-werkstuk2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rik_Willekens_multec_werkstuk2;
+			};
+			name = Debug;
+		};
+		F09634F7211B1EE8006DC666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rik_Willekens_multec_werkstuk2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rikwillekens.Rik-Willekens-multec-werkstuk2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rik_Willekens_multec_werkstuk2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F09634BF211B1EE6006DC666 /* Build configuration list for PBXProject "Rik_Willekens_multec_werkstuk2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09634ED211B1EE8006DC666 /* Debug */,
+				F09634EE211B1EE8006DC666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09634EF211B1EE8006DC666 /* Build configuration list for PBXNativeTarget "Rik_Willekens_multec_werkstuk2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09634F0211B1EE8006DC666 /* Debug */,
+				F09634F1211B1EE8006DC666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09634F2211B1EE8006DC666 /* Build configuration list for PBXNativeTarget "Rik_Willekens_multec_werkstuk2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09634F3211B1EE8006DC666 /* Debug */,
+				F09634F4211B1EE8006DC666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09634F5211B1EE8006DC666 /* Build configuration list for PBXNativeTarget "Rik_Willekens_multec_werkstuk2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09634F6211B1EE8006DC666 /* Debug */,
+				F09634F7211B1EE8006DC666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F09634CE211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F09634CF211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2.xcdatamodel */,
+			);
+			currentVersion = F09634CF211B1EE7006DC666 /* Rik_Willekens_multec_werkstuk2.xcdatamodel */;
+			path = Rik_Willekens_multec_werkstuk2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F09634BC211B1EE6006DC666 /* Project object */;
+}
